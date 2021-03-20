@@ -2,13 +2,13 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --blue: #5665EA;    
-    --red: #D92828;
+    --blue: #7a85fd;    
+    --red: #f15555;
     --green: #13AC35;   
     --white: #FFFFFF;
     --placeholder: #909396;
     --primary-shape: #242528;
-    --background: #0E1013;
+    --background: #121418;
 
     --primary-shape-hover: #353538;
   }
