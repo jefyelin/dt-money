@@ -46,7 +46,7 @@ export const Button = styled.button`
   margin-left: 0.625rem;
   transition: background-color 0.2s;
 
-  &:hover {
+  &:hover, &:focus {
     background-color: var(--primary-shape-hover);
   }
 

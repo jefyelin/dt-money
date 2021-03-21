@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import { ReactComponent as _IncomeIcon } from '../../assets/income.svg'
+import { ReactComponent as _OutcomeIcon } from '../../assets/outcome.svg'
 
 export const Container = styled.div`
   display: grid;
@@ -21,6 +23,10 @@ export const Card = styled.div`
   div { 
     display: flex;
     justify-content: space-between;
+    
+    p {
+      font-weight: 500;
+    }
   }
 
   strong { 
@@ -29,5 +35,13 @@ export const Card = styled.div`
     font-weight: 500;
     line-height:  3.375rem;
   }
+`
+
+export const IncomeIcon = styled(_IncomeIcon)`
+  color: var(--green);
+`
+
+export const OutcomeIcon = styled(_OutcomeIcon)`
+  color: var(--red);
 `
 

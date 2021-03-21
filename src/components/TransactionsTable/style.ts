@@ -22,14 +22,20 @@ export const THead = styled.thead`
 `
 
 export const TBody = styled.tbody`
-  tr {
-    background-color: var(--primary-shape);
-    border-radius: 0.3125rem;
-    
+  tr {        
     td {
       color: var(--white);
       padding: 1.25rem 32px;
       margin-bottom: 8px;
+      background-color: var(--primary-shape);
+
+      &:first-child {
+        border-radius: 0.3125rem 0 0 0.3125rem;
+      }
+
+      &:last-child {
+        border-radius: 0 0.3125rem 0.3125rem 0;
+      }
       
       &.deposit {
         color: var(--green);
